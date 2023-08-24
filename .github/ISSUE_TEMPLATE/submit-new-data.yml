@@ -78,50 +78,11 @@ body:
       placeholder: Indicator category other than those above.
     validations:
       required: false
-  - type: input
-    id: data-url
+  - type: textarea
+    id: data_contributors
     attributes:
-      label: Can you provide a URL to view the data online?
-      description: Please provide a link to the data, whether http, ftp, or other.
-      placeholder: ex. https://www.fisheries.noaa.gov/inport/stats/NEFSC/data-sets
+      label: Data Contributors
+      description: Enter the names of all contributing persons.
+      value: "Ex: Brandon Beltz, Sarah Gaichas and Sean Lucey."
     validations:
-      required: false
-  - type: dropdown
-    id: data-type
-    attributes:
-      label: What is the type of data?
-      description: Spatial data type for the requested addition.
-      multiple: false
-      options:
-        - Shapefile
-        - Raster
-        - Other (please specify below)
-    validations:
-      required: true      
-  - type: input
-    id: data-type-other
-    attributes:
-      label: If Other, please specify data type
-      description: If you selected Other from the dropdown menu above, please specify the spatial data type.
-      placeholder: ex. Geodatabase (*.gdb)
-    validations:
-      required: false
-  - type: dropdown
-    id: data-manip
-    attributes:
-      label: Does this data require any additional manipulation before usage?
-      description: If yes, and upon acceptance, a pull request will need to be initiated containing the R code. You will be instructed when to do this.
-      multiple: false
-      options:
-        - 'Yes'
-        - 'No'
-    validations:
-      required: true 
-  - type: checkboxes
-    id: assign-reviewer
-    attributes:
-      label: Have you assigned 2 reviewers for this new data submission request?
-      description: Please assign 2 team members (@andybeet, @jmhatch, @kimberly-bastille) to review this new data submission request.
-      options:
-        - label: I have assigned 2 reviewers
-          required: true
+      required: true
