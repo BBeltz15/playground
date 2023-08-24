@@ -49,6 +49,14 @@ body:
         - label: Regime Shifts
         - label: Ecosystem Reorganization
           required: false
+    - type: textarea
+    id: define_variables
+    attributes:
+      label: Define Variables
+      description: Provide definitions for all variable names with units.
+      value: "Ex: 1) Name: piscivore_biomass; Definition: Biomass of piscivores; Units: kg tow^-1. 2) Name: forage_biomass; Definition: Biomass of forage fish; Units: kg tow^-1."
+    validations:
+      required: true
   - type: input
     id: data-url
     attributes:
