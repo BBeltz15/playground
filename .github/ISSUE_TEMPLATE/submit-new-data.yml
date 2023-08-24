@@ -102,6 +102,6 @@ body:
       description: State public availability of source data for this indicator.
       options:
         - label: Source data are publicly available.
+        required: true
         - label: Source data are NOT publicly available.
-    validations:
-      required: true
+        required: true
