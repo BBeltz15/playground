@@ -1,18 +1,26 @@
 name: State of the Ecosystem - Catalog Submission
 description: Use this issue template to submit catalog information for the State of the Ecosystem reports.
-title: "[Request]: "
-labels: ["enhancement"]
+title: "[Submission]: "
+labels: ["submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this submission request!
+        Thank you for contributing to the State of the Ecosystem reports! Please reach out to nefsc.soe.leads@noaa.gov with any questions or concerns.
   - type: input
-    id: contact
+    id: contact1
     attributes:
-      label: Contact details
+      label: Primary Contact
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@noaa.gov
+      placeholder: ex: email@noaa.gov
+    validations:
+      required: false
+  - type: input
+    id: contact2
+    attributes:
+      label: Secondary Contact
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex: email@noaa.gov
     validations:
       required: false
   - type: textarea
