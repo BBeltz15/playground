@@ -31,6 +31,14 @@ body:
       placeholder: Ex. NE Shelf Annual Sea Surface Temperature
     validations:
       required: true
+  - type: textarea
+    id: data_description
+    attributes:
+      label: Data Description
+      description: Briefly describe the data set.
+      value: "Ex: The data presented here are average annual sea-surface temperatures from PSL OISST on the Northeast Continental Shelf."
+    validations:
+      required: true
   - type: checkboxes
     id: search-data
     attributes:
