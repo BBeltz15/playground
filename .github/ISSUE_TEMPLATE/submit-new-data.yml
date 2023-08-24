@@ -1,5 +1,5 @@
-name: New Data Submission Request
-description: Request new data be added to NEFSCspatial (test form instead of template)
+name: State of the Ecosystem - Catalog Submission
+description: Use this issue template to submit catalog information for the State of the Ecosystem reports.
 title: "[Request]: "
 labels: ["enhancement"]
 body:
