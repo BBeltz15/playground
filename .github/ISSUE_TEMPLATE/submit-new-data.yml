@@ -57,6 +57,27 @@ body:
       value: "Ex: 1) Name: piscivore_biomass; Definition: Biomass of piscivores; Units: kg tow^-1. 2) Name: forage_biomass; Definition: Biomass of forage fish; Units: kg tow^-1."
     validations:
       required: true
+  - type: checkboxes
+    id: indicator_category
+    attributes:
+      label: Indicator Category
+      description: Select one or more categories that apply to your data set.
+      options:
+        - label: Published Methods
+        - label: Extensive analysis, not yet published
+        - label: Syntheses of published information
+        - label: Database pull
+        - label: Database pull with analysis
+        - label: Other
+          required: false
+  - type: input
+    id: other_indicator_category
+    attributes:
+      label: If other, please specify:
+      description: If you selected Other above, please specify a new indicator category.
+      placeholder: Indicator category other than those above.
+    validations:
+      required: false
   - type: input
     id: data-url
     attributes:
