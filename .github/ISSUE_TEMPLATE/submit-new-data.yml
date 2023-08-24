@@ -49,7 +49,7 @@ body:
         - label: Regime Shifts
         - label: Ecosystem Reorganization
           required: false
-    - type: textarea
+  - type: textarea
     id: define_variables
     attributes:
       label: Define Variables
