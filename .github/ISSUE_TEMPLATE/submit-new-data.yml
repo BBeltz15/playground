@@ -73,7 +73,7 @@ body:
   - type: input
     id: other_indicator_category
     attributes:
-      label: If other, please specify:
+      label: If other, please specify
       description: If you selected Other above, please specify a new indicator category.
       placeholder: Indicator category other than those above.
     validations:
