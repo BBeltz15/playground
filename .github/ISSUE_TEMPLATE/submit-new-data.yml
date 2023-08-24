@@ -95,3 +95,13 @@ body:
       placeholder: Ex. Brandon Beltz (brandon.beltz@noaa.gov)
     validations:
       required: true
+  - type: checkboxes
+  id: public_availability
+  attributes:
+    label: Public Availability
+    description: State public availability of source data for this indicator.
+    options:
+      - label: Source data are publicly available.
+      - label: Source data are NOT publicly available.
+  validations:
+    required: true
