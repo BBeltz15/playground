@@ -40,13 +40,15 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: search-data
+    id: synthesis_theme
     attributes:
-      label: Are there data currently in the package that are similar?
-      description: Please search to see if data already exists for your purposes.
+      label: Synthesis Theme
+      description: Please check the synthesis theme(s) that could apply to your indicator.
       options:
-        - label: I have searched the existing data.
-          required: true
+        - label: Multiple System Drivers
+        - label: Regime Shifts
+        - label: Ecosystem Reorganization
+          required: false
   - type: input
     id: data-url
     attributes:
