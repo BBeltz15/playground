@@ -106,3 +106,11 @@ body:
         - Source data are NOT publicly available.
     validations:
       required: true
+  - type: input
+    id: accessibility
+    attributes:
+      label: Accessibility and Constraints
+      description: If source data are NOT publicly available, what are the procedures for accessing the data?
+      placeholder: Ex. Please email your.email@noaa.gov for further information and queries of X indicator source data.
+    validations:
+      required: false
