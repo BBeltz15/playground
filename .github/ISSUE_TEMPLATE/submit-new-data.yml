@@ -114,3 +114,10 @@ body:
       placeholder: Ex. Please email your.email@noaa.gov for further information and queries of X indicator source data.
     validations:
       required: false
+ - type: markdown
+    attributes:
+      value: "## Methods"
+  - type: markdown
+    attributes:
+      value: |
+        In the following sections, please outline the methods used for these indicator data. Please include any documentation when available (i.e. links to code, published works, etc). If easier, you may include a write up of your methods in a separate document and upload that file below.
