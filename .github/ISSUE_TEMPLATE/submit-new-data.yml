@@ -14,7 +14,7 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@noaa.gov
     validations:
-      required: false
+      required: true
   - type: input
     id: contact2
     attributes:
@@ -23,12 +23,12 @@ body:
       placeholder: ex. email@noaa.gov
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: data_name
     attributes:
       label: Data Name
       description: Enter the name of the data set.
-      value: "Ex: 'NE Shelf Annual Sea Surface Temperature"
+      placeholder: Ex. NE Shelf Annual Sea Surface Temperature
     validations:
       required: true
   - type: checkboxes
