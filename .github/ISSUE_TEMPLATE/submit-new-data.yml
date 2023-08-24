@@ -114,7 +114,7 @@ body:
       placeholder: Ex. Please email your.email@noaa.gov for further information and queries of X indicator source data.
     validations:
       required: false
- - type: markdown
+  - type: markdown
     attributes:
       value: "## Methods"
   - type: markdown
