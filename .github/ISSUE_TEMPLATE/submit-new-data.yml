@@ -12,7 +12,7 @@ body:
     attributes:
       label: Primary Contact
       description: How can we get in touch with you if we need more info?
-      placeholder: ex: email@noaa.gov
+      placeholder: ex. email@noaa.gov
     validations:
       required: false
   - type: input
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Secondary Contact
       description: How can we get in touch with you if we need more info?
-      placeholder: ex: email@noaa.gov
+      placeholder: ex. email@noaa.gov
     validations:
       required: false
   - type: textarea
