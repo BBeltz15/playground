@@ -48,7 +48,8 @@ body:
         - label: Multiple System Drivers
         - label: Regime Shifts
         - label: Ecosystem Reorganization
-          required: false
+    validations:
+      required: false
   - type: textarea
     id: define_variables
     attributes:
