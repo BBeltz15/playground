@@ -87,3 +87,11 @@ body:
       value: "Ex: Brandon Beltz, Sarah Gaichas and Sean Lucey."
     validations:
       required: true
+  - type: input
+    id: point_contact
+    attributes:
+      label: Point(s) of Contact
+      description: Enter name(s) and email(s) for point(s) of contact.
+      placeholder: Ex. Brandon Beltz (brandon.beltz@noaa.gov)
+    validations:
+      required: true
